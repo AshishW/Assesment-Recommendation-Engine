@@ -25,7 +25,7 @@ app.add_middleware(
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 try:
-    top_k = 8
+    top_k = 10
     vector_db = FAISS.load_local(
         "shl_faiss_index", embeddings, allow_dangerous_deserialization=True
     )
@@ -101,8 +101,17 @@ class QueryRequest(BaseModel):
 async def recommend_assesments(request: QueryRequest):
     try:
         response = rag_chain.invoke(request.query)
+        result = response.dict()
 
-        return response.dict()
+        for item in result["recommended_assessments"]:
+            original_url = item["url"]
+            if "shl.com/products/" in original_url:
+                # normalizing urls
+                item["url"] = original_url.replace(
+                    "shl.com/products/", "shl.com/solutions/products/"
+                )
+
+        return result
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
