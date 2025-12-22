@@ -17,10 +17,11 @@ def load_shl_data():
         # Context ENg
         page_content = f"""
         Assessment Name: {item["name"]}
-        Test Types: {", ".join(item["test_type"])}
         Description: {item["description"]}
-        Duration: {item["duration"]} minutes
-        remote_support: {item["remote_support"]}
+        Skills: {", ".join(item["test_type"])}
+        Duration: {item["duration"]}
+        Job levels: {item["job_levels"]}
+        Test Languages: {item["languages"]}
         """
 
         meta_data = {

@@ -13,7 +13,9 @@
       "Competencies",
       "Development & 360",
       "Personality & Behaviour"
-    ]
+    ],
+    "job_levels": "Director, Entry-Level, Executive, General Population, Graduate, Manager, Mid-Professional, Front Line Manager, Supervisor,",
+    "languages": null
   },
   {
     "name": ".NET Framework 4.5",
@@ -22,7 +24,9 @@
     "duration": 30,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Professional Individual Contributor, Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": ".NET MVC (New)",
@@ -31,7 +35,9 @@
     "duration": 17,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": ".NET MVVM (New)",
@@ -40,7 +46,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": ".NET WCF (New)",
@@ -49,7 +57,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": ".NET WPF (New)",
@@ -58,7 +68,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": ".NET XAML (New)",
@@ -67,7 +79,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Accounts Payable (New)",
@@ -76,7 +90,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Accounts Payable Simulation (New)",
@@ -85,7 +101,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Accounts Receivable (New)",
@@ -94,7 +112,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Accounts Receivable Simulation (New)",
@@ -103,7 +123,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "ADO.NET (New)",
@@ -112,7 +134,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Adobe Experience Manager (New)",
@@ -121,7 +145,9 @@
     "duration": 17,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Adobe Photoshop CC",
@@ -130,7 +156,9 @@
     "duration": 20,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Aeronautical Engineering (New)",
@@ -139,7 +167,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Aerospace Engineering (New)",
@@ -148,7 +178,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Agile Software Development",
@@ -157,7 +189,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate,",
+    "languages": "English (USA),"
   },
   {
     "name": "Agile Testing (New)",
@@ -166,7 +200,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "AI Skills",
@@ -175,7 +211,9 @@
     "duration": 16,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "General Population,",
+    "languages": "English (USA),"
   },
   {
     "name": "Amazon Web Services (AWS) Development (New)",
@@ -184,7 +222,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Android Development (New)",
@@ -193,7 +233,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Angular 6 (New)",
@@ -202,7 +244,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "AngularJS (New)",
@@ -211,7 +255,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Apache Hadoop (New)",
@@ -220,7 +266,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Apache Hadoop Extensions (New)",
@@ -229,7 +277,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Apache HBase (New)",
@@ -238,7 +288,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Apache Hive (New)",
@@ -247,7 +299,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Apache Kafka (New)",
@@ -256,7 +310,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Apache Pig (New)",
@@ -265,7 +321,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Apache Spark (New)",
@@ -274,7 +332,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "ASP .NET with C# (New)",
@@ -283,7 +343,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "ASP.NET 4.5",
@@ -292,7 +354,9 @@
     "duration": 30,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Assessment and Development Center Exercises",
@@ -301,7 +365,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Assessment Exercises"]
+    "test_type": ["Assessment Exercises"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English International, English (USA),"
   },
   {
     "name": "Automata - Fix (New)",
@@ -310,7 +376,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automata - SQL (New)",
@@ -319,7 +387,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automata (New)",
@@ -328,7 +398,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automata Data Science (New)",
@@ -337,7 +409,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automata Data Science Pro (New)",
@@ -346,7 +420,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Professional Individual Contributor, Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automata Front End",
@@ -355,7 +431,9 @@
     "duration": 30,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor, Manager,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automata Pro (New)",
@@ -364,7 +442,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automata Selenium",
@@ -373,7 +453,9 @@
     "duration": 60,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automation Anywhere RPA Development (New)",
@@ -382,7 +464,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Automotive Engineering (New)",
@@ -391,7 +475,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Basic Biology (New)",
@@ -400,7 +486,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Professional Individual Contributor, Graduate, Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": "Basic Computer Literacy (Windows 10) (New)",
@@ -409,7 +497,9 @@
     "duration": 30,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations", "Knowledge & Skills"]
+    "test_type": ["Simulations", "Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Basic Statistics (New)",
@@ -418,7 +508,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Biochemistry (New)",
@@ -427,7 +519,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Biotech Lab Techniques (New)",
@@ -436,7 +530,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Professional Individual Contributor, Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": "BizTalk (New)",
@@ -445,7 +541,9 @@
     "duration": 16,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Business Communication (adaptive)",
@@ -454,7 +552,9 @@
     "duration": 24,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Business Communications",
@@ -463,7 +563,9 @@
     "duration": 35,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": null,
+    "languages": "English (USA),"
   },
   {
     "name": "C Programming (New)",
@@ -472,7 +574,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "C# Programming (New)",
@@ -481,7 +585,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "C++ Programming (New)",
@@ -490,7 +596,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Cardiology and Diabetes Management (New)",
@@ -499,7 +607,9 @@
     "duration": 4,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Ceramic Engineering (New)",
@@ -508,7 +618,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Chemical Engineering (New)",
@@ -517,7 +629,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Cisco AppDynamics (New)",
@@ -526,7 +640,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Civil Engineering (New)",
@@ -535,7 +651,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Cloud Computing (New)",
@@ -544,7 +662,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "COBOL Programming (New)",
@@ -553,7 +673,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Computer Science (New)",
@@ -562,7 +684,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Contact Center Call Simulation (New)",
@@ -571,7 +695,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Conversational Multichat Simulation",
@@ -580,7 +706,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": null,
+    "languages": "English (USA),"
   },
   {
     "name": "Core Java (Advanced Level) (New)",
@@ -589,7 +717,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Core Java (Entry Level) (New)",
@@ -598,7 +728,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Count Out The Money",
@@ -607,7 +739,9 @@
     "duration": 5,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills", "Simulations"]
+    "test_type": ["Knowledge & Skills", "Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA), English (Australia), English (Canada), English International, English (South Africa),"
   },
   {
     "name": "CSS3 (New)",
@@ -616,7 +750,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Culinary Skills (New)",
@@ -625,7 +761,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Customer Service Phone Simulation",
@@ -634,7 +772,9 @@
     "duration": 20,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement", "Simulations"]
+    "test_type": ["Biodata & Situational Judgement", "Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "French (Canada), Portuguese (Brazil), Dutch, Italian, Spanish, French, Latin American Spanish, Chinese Simplified, English (Australia), English International, English (USA),"
   },
   {
     "name": "Customer Service Phone Solution",
@@ -647,7 +787,9 @@
       "Biodata & Situational Judgement",
       "Personality & Behaviour",
       "Simulations"
-    ]
+    ],
+    "job_levels": "Entry-Level,",
+    "languages": "French (Canada), Italian, French, Dutch, Spanish, Portuguese (Brazil), Chinese Simplified, English (Australia), Latin American Spanish, English (USA), English International,"
   },
   {
     "name": "Cyber Risk (New)",
@@ -656,7 +798,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Data Entry (New)",
@@ -665,7 +809,9 @@
     "duration": 4,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Data Entry Alphanumeric Split Screen - US",
@@ -674,7 +820,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Professional Individual Contributor, Mid-Professional, Front Line Manager, Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Data Entry Numeric Split Screen - US",
@@ -683,7 +831,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor, Entry-Level, Front Line Manager,",
+    "languages": "English (USA),"
   },
   {
     "name": "Data Entry Ten Key Split Screen",
@@ -692,7 +842,9 @@
     "duration": 3,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Data Science (New)",
@@ -701,7 +853,9 @@
     "duration": 14,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Data Warehousing Concepts",
@@ -710,7 +864,9 @@
     "duration": 25,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Dependability and Safety Instrument (DSI)",
@@ -719,7 +875,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Entry-Level,",
+    "languages": "Portuguese (Brazil), Chinese Traditional, Danish, Dutch, Finnish, French, German, Icelandic, Chinese Simplified, English International, Italian, Latin American Spanish, Polish, Swedish, English (USA), Norwegian, Russian,"
   },
   {
     "name": "Dermatology (New)",
@@ -728,7 +886,9 @@
     "duration": 3,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Desktop Support (New)",
@@ -737,7 +897,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Digital Advertising (New)",
@@ -746,7 +908,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Digital Readiness Development Report - IC",
@@ -755,7 +919,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": null
   },
   {
     "name": "Digital Readiness Development Report - Manager",
@@ -764,7 +930,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Supervisor, Director,",
+    "languages": null
   },
   {
     "name": "Docker (New)",
@@ -773,7 +941,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Dojo (New)",
@@ -782,7 +952,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Drupal (New)",
@@ -791,7 +963,9 @@
     "duration": 17,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "DSI v1.1 Interpretation Report",
@@ -800,7 +974,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": null,
+    "languages": "Portuguese (Brazil), Dutch, Finnish, French, Latin American Spanish, Norwegian, Swedish, English (USA), English International, Chinese Simplified, Chinese Traditional, Danish, German, Icelandic, Italian, Russian,"
   },
   {
     "name": "Econometrics (New)",
@@ -809,7 +985,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Economics (New)",
@@ -818,7 +996,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Electrical and Electronics Engineering (New)",
@@ -827,7 +1007,9 @@
     "duration": 14,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Electrical Engineering (New)",
@@ -836,7 +1018,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Electronics & Telecommunications Engineering (New)",
@@ -845,7 +1029,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Electronics and Embedded Systems Engineering (New)",
@@ -854,7 +1040,9 @@
     "duration": 18,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Electronics and Semiconductor Engineering (New)",
@@ -863,7 +1051,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "English Comprehension (New)",
@@ -872,7 +1062,9 @@
     "duration": 0,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Enterprise Java Beans (New)",
@@ -881,7 +1073,9 @@
     "duration": 4,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Enterprise Leadership Report 1.0",
@@ -890,7 +1084,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Manager, Mid-Professional,",
+    "languages": null
   },
   {
     "name": "Enterprise Leadership Report 2.0",
@@ -899,7 +1095,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Manager, Mid-Professional,",
+    "languages": null
   },
   {
     "name": "Entry Level Cashier Solution",
@@ -908,7 +1106,9 @@
     "duration": 19,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA), English International, French (Canada), German, Italian, French, Dutch, Norwegian, Finnish, Swedish, Danish, Arabic, Chinese Simplified, Latin American Spanish,"
   },
   {
     "name": "Entry Level Customer Serv-Retail & Contact Center",
@@ -917,7 +1117,9 @@
     "duration": 19,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour", "Competencies"]
+    "test_type": ["Personality & Behaviour", "Competencies"],
+    "job_levels": "Entry-Level,",
+    "languages": "Latin American Spanish, German, French, Chinese Simplified, Swedish, Arabic, English International, English (USA), French (Canada), Italian, Dutch, Norwegian, Finnish, Danish,"
   },
   {
     "name": "Entry Level Customer Service (General) Solution",
@@ -926,7 +1128,9 @@
     "duration": 14,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA), English International, French (Canada), Italian, Dutch, Norwegian, Finnish, Danish, Latin American Spanish, German, French, Chinese Simplified, Swedish, Arabic,"
   },
   {
     "name": "Entry Level Hotel Front Desk Solution",
@@ -935,7 +1139,9 @@
     "duration": 20,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": "Entry-Level,",
+    "languages": "French (Canada), Italian, French, Chinese Simplified, Swedish, Arabic, English (USA), English International, Latin American Spanish, German, Dutch, Norwegian, Finnish, Danish,"
   },
   {
     "name": "Entry Level Sales Solution",
@@ -944,7 +1150,9 @@
     "duration": 20,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": "Entry-Level,",
+    "languages": "German, Italian, Chinese Simplified, Finnish, Danish, English (USA), English International, Latin American Spanish, French (Canada), French, Dutch, Norwegian, Swedish, Arabic,"
   },
   {
     "name": "Entry Level Technical Support Solution",
@@ -953,7 +1161,9 @@
     "duration": 18,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour", "Competencies"]
+    "test_type": ["Personality & Behaviour", "Competencies"],
+    "job_levels": "Entry-Level,",
+    "languages": "Latin American Spanish, German, Chinese Simplified, Finnish, Danish, English (USA), English International, French (Canada), Italian, French, Dutch, Norwegian, Swedish, Arabic,"
   },
   {
     "name": "ETL Testing (New)",
@@ -962,7 +1172,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Executive Scenarios",
@@ -971,7 +1183,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Director, Executive, Manager,",
+    "languages": "Italian, English (USA), English International, Korean,"
   },
   {
     "name": "Executive Scenarios Narrative Report",
@@ -980,7 +1194,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Director, Executive, Manager,",
+    "languages": null
   },
   {
     "name": "Executive Scenarios Profile Report",
@@ -989,7 +1205,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Director, Executive, Manager,",
+    "languages": null
   },
   {
     "name": "ExpressJS (New)",
@@ -998,7 +1216,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Filing - Names (R1)",
@@ -1007,7 +1227,9 @@
     "duration": 3,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Filing - Numbers",
@@ -1016,7 +1238,9 @@
     "duration": 3,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Financial Accounting (New)",
@@ -1025,7 +1249,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Financial and Banking Services (New)",
@@ -1034,7 +1260,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Fire Engineering (New)",
@@ -1043,7 +1271,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Following Instructions v1 - UK (R1)",
@@ -1052,7 +1282,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English International,"
   },
   {
     "name": "Following Instructions v1 - US (R2)",
@@ -1061,7 +1293,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Food and Beverage Services (New)",
@@ -1070,7 +1304,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Food Science (New)",
@@ -1079,7 +1315,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Front Office Management (New)",
@@ -1088,7 +1326,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Fundamentals of Chemistry (New)",
@@ -1097,7 +1337,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Fundamentals of Physics (New)",
@@ -1106,7 +1348,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "General Diseases (New)",
@@ -1115,7 +1359,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Geoinformatics Engineering (New)",
@@ -1124,7 +1370,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor, Supervisor, Entry-Level, Graduate,",
+    "languages": "English (USA),"
   },
   {
     "name": "Geoscience Engineering (New)",
@@ -1133,7 +1381,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor, Graduate,",
+    "languages": "English (USA),"
   },
   {
     "name": "GIT (New)",
@@ -1142,7 +1392,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Global Skills Assessment",
@@ -1151,7 +1403,9 @@
     "duration": 16,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Knowledge & Skills"]
+    "test_type": ["Competencies", "Knowledge & Skills"],
+    "job_levels": null,
+    "languages": "Indonesian, Italian, Swedish, Thai, Portuguese (Brazil), French (Canada), Chinese Simplified, Danish, Finnish, French, German, English International, Japanese, Korean, Latin American Spanish, Norwegian, Polish, Romanian, Spanish, Vietnamese, Chinese Traditional, Arabic, English (USA), Dutch, Portuguese, Turkish,"
   },
   {
     "name": "Graduate Scenarios",
@@ -1160,7 +1414,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Manager, Mid-Professional, Professional Individual Contributor, Graduate,",
+    "languages": "English International,"
   },
   {
     "name": "Graduate Scenarios Narrative Report",
@@ -1169,7 +1425,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor, Manager, Graduate,",
+    "languages": null
   },
   {
     "name": "Graduate Scenarios Profile Report",
@@ -1178,7 +1436,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": null
   },
   {
     "name": "Hibernate (New)",
@@ -1187,7 +1447,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "HIPAA (Security)",
@@ -1196,7 +1458,9 @@
     "duration": 15,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Front Line Manager, Manager,",
+    "languages": "English (USA),"
   },
   {
     "name": "HiPo Assessment Report 1.0",
@@ -1205,7 +1469,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "HiPo Assessment Report 2.0",
@@ -1214,7 +1480,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "HiPo Unlocking Potential Report 2.0",
@@ -1223,7 +1491,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies"]
+    "test_type": ["Competencies"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "Housekeeping (New)",
@@ -1232,7 +1502,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "HTML/CSS (New)",
@@ -1241,7 +1513,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "HTML5 (New)",
@@ -1250,7 +1524,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Human Resources (New)",
@@ -1259,7 +1535,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "IBM DataStage (New)",
@@ -1268,7 +1546,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "IBM Sterling Order Management System (New)",
@@ -1277,7 +1557,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Industrial Engineering (New)",
@@ -1286,7 +1568,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Informatica (Architecture) (New)",
@@ -1295,7 +1579,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Informatica (Developer) (New)",
@@ -1304,7 +1590,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Instrumentation Engineering (New)",
@@ -1313,7 +1601,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Interpersonal Communications",
@@ -1322,7 +1612,9 @@
     "duration": 15,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Interviewing and Hiring Concepts (U.S.)",
@@ -1331,7 +1623,9 @@
     "duration": 15,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Front Line Manager, Manager,",
+    "languages": "English (USA),"
   },
   {
     "name": "iOS Development (New)",
@@ -1340,7 +1634,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "ITIL (IT Infrastructure Library) (New)",
@@ -1349,7 +1645,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Java 2 Platform Enterprise Edition 1.4 Fundamental",
@@ -1358,7 +1656,9 @@
     "duration": 30,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Java 8 (New)",
@@ -1367,7 +1667,9 @@
     "duration": 18,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Java Design Patterns (New)",
@@ -1376,7 +1678,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Java Frameworks (New)",
@@ -1385,7 +1689,9 @@
     "duration": 17,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Java Platform Enterprise Edition 7 (Java EE 7)",
@@ -1394,7 +1700,9 @@
     "duration": 30,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Java Web Services (New)",
@@ -1403,7 +1711,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "JavaScript (New)",
@@ -1412,7 +1722,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Jenkins (New)",
@@ -1421,7 +1733,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Job Control Language (New)",
@@ -1430,7 +1744,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "jQuery (New)",
@@ -1439,7 +1755,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Kubernetes (New)",
@@ -1448,7 +1766,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Linux Administration (New)",
@@ -1457,7 +1777,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Linux Operating System",
@@ -1466,7 +1788,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, General Population, Graduate, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Linux Programming (General)",
@@ -1475,7 +1799,9 @@
     "duration": 25,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Load Runner (New)",
@@ -1484,7 +1810,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Management Scenarios",
@@ -1493,7 +1821,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Italian, English International, Korean, Arabic,"
   },
   {
     "name": "Managerial Scenarios Candidate Report",
@@ -1502,7 +1832,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": null
   },
   {
     "name": "Managerial Scenarios Narrative Report",
@@ -1511,7 +1843,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": null
   },
   {
     "name": "Managerial Scenarios Profile Report",
@@ -1520,7 +1854,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement"]
+    "test_type": ["Biodata & Situational Judgement"],
+    "job_levels": "Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": null
   },
   {
     "name": "Manual Testing (New)",
@@ -1529,7 +1865,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Manufac. & Indust. - Mechanical & Vigilance 8.0",
@@ -1538,7 +1876,9 @@
     "duration": 49,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Personality & Behaviour"]
+    "test_type": ["Ability & Aptitude", "Personality & Behaviour"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Manufac. & Indust. - Safety & Dependability 8.0",
@@ -1547,7 +1887,9 @@
     "duration": 16,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA), German, Latin American Spanish, French, English International, Chinese Simplified, Italian, Japanese,"
   },
   {
     "name": "Manufacturing & Industrial - Essential Focus 8.0",
@@ -1556,7 +1898,9 @@
     "duration": 16,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor, Entry-Level, Graduate, Manager,",
+    "languages": "English International, French, English (USA), Chinese Simplified, Italian, Japanese, Latin American Spanish, German,"
   },
   {
     "name": "Manufacturing & Industrial - Mechanical Focus 8.0",
@@ -1565,7 +1909,9 @@
     "duration": 31,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Personality & Behaviour"]
+    "test_type": ["Ability & Aptitude", "Personality & Behaviour"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA), English International, Italian, Japanese, Latin American Spanish, Chinese Simplified,"
   },
   {
     "name": "Manufacturing & Industrial - Vigilance Focus 8.0",
@@ -1574,7 +1920,9 @@
     "duration": 34,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Personality & Behaviour"]
+    "test_type": ["Ability & Aptitude", "Personality & Behaviour"],
+    "job_levels": "Entry-Level, Mid-Professional, Professional Individual Contributor, Graduate, Manager,",
+    "languages": "English (USA),"
   },
   {
     "name": "Marketing (New)",
@@ -1583,7 +1931,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Maven (New)",
@@ -1592,7 +1942,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Mechanical Engineering (New)",
@@ -1601,7 +1953,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Mechatronics Engineering (New)",
@@ -1610,7 +1964,9 @@
     "duration": 19,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Medical Terminology (New)",
@@ -1619,7 +1975,9 @@
     "duration": 3,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Metallurgical Engineering (New)",
@@ -1628,7 +1986,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "MFS 360 Enterprise Leadership Report",
@@ -1637,7 +1997,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Development & 360"]
+    "test_type": ["Development & 360"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "MFS 360 UCF Group Report",
@@ -1646,7 +2008,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Development & 360"]
+    "test_type": ["Development & 360"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "MFS 360 UCF Performance Potential Dev Tips Report",
@@ -1655,7 +2019,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Development & 360"]
+    "test_type": ["Development & 360"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "MFS 360 UCF Standard Report",
@@ -1664,7 +2030,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Development & 360"]
+    "test_type": ["Development & 360"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "Micro Focus Unified Functional Testing (New)",
@@ -1673,7 +2041,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microservices (New)",
@@ -1682,7 +2052,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft Dynamics Development (New)",
@@ -1691,7 +2063,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft Excel 365 - Essentials (New)",
@@ -1700,7 +2074,9 @@
     "duration": 30,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills", "Simulations"]
+    "test_type": ["Knowledge & Skills", "Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft Excel 365 (New)",
@@ -1709,7 +2085,9 @@
     "duration": 35,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills", "Simulations"]
+    "test_type": ["Knowledge & Skills", "Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft Outlook 2013 (adaptive)",
@@ -1718,7 +2096,9 @@
     "duration": 25,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft PowerPoint 365 - Essentials (New)",
@@ -1727,7 +2107,9 @@
     "duration": 25,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills", "Simulations"]
+    "test_type": ["Knowledge & Skills", "Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft SQL Server 2014 Programming",
@@ -1736,7 +2118,9 @@
     "duration": 35,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft Windows Server 2012 Administration",
@@ -1745,7 +2129,9 @@
     "duration": 35,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft Word 365 - Essentials (New)",
@@ -1754,7 +2140,9 @@
     "duration": 25,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills", "Simulations"]
+    "test_type": ["Knowledge & Skills", "Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Microsoft Word 365 (New)",
@@ -1763,7 +2151,9 @@
     "duration": 35,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations", "Knowledge & Skills"]
+    "test_type": ["Simulations", "Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Mineral Engineering (New)",
@@ -1772,7 +2162,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Mining Engineering (New)",
@@ -1781,7 +2173,9 @@
     "duration": 16,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Mobility (New)",
@@ -1790,7 +2184,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Molecular Biology (New)",
@@ -1799,7 +2195,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "MongoDB (New)",
@@ -1808,7 +2206,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Motivation Questionnaire MQM5",
@@ -1817,7 +2217,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Latin American Spanish, Portuguese (Brazil), Latvian, Danish, Indonesian, Swedish, Turkish, Portuguese, French (Canada), Japanese, Chinese Traditional, Flemish, French (Belgium), Spanish, Finnish, French, German, Greek, Italian, Polish, Romanian, Russian, English International, English (USA), Chinese Simplified, Dutch, Hungarian, Norwegian, Czech, Slovak, English (Australia), Arabic, Korean,"
   },
   {
     "name": "MQ Candidate Motivation Report",
@@ -1826,7 +2228,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English International, English (USA), Chinese Simplified,"
   },
   {
     "name": "MQ Employee Motivation Report",
@@ -1835,7 +2239,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Chinese Simplified, English International, English (USA),"
   },
   {
     "name": "MQ Motivation Report Pack",
@@ -1844,7 +2250,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Director, Entry-Level, Executive, Front Line Manager,",
+    "languages": "Chinese Simplified, English International, English (USA),"
   },
   {
     "name": "MQ Profile",
@@ -1853,7 +2261,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Flemish, French (Belgium), Spanish, Danish, Dutch, Finnish, French (Canada), French, German, Greek, Italian, Norwegian, Polish, Portuguese, Russian, Swedish, English International, English (USA), Romanian, Indonesian, Turkish, Chinese Simplified, Hungarian,"
   },
   {
     "name": "MS Access (New)",
@@ -1862,7 +2272,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "MS Excel (New)",
@@ -1871,7 +2283,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA), Spanish, French, Portuguese (Brazil),"
   },
   {
     "name": "MS Office Basic Computer Literacy (New)",
@@ -1880,7 +2294,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA), Spanish, Portuguese (Brazil), French,"
   },
   {
     "name": "MS Office Basic Computer Literacy (Sim) (New)",
@@ -1889,7 +2305,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "MS PowerPoint (New)",
@@ -1898,7 +2316,9 @@
     "duration": 4,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Graduate, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA), French, Spanish, Portuguese (Brazil),"
   },
   {
     "name": "MS Word (New)",
@@ -1907,7 +2327,9 @@
     "duration": 4,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Professional Individual Contributor, Supervisor, Mid-Professional, Entry-Level, Graduate, Manager,",
+    "languages": "Spanish, French, Portuguese (Brazil), English (USA),"
   },
   {
     "name": "MuleSoft Development (New)",
@@ -1916,7 +2338,9 @@
     "duration": 17,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Multitasking Ability",
@@ -1925,7 +2349,9 @@
     "duration": 20,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Knowledge & Skills", "Simulations"]
+    "test_type": ["Ability & Aptitude", "Knowledge & Skills", "Simulations"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Networking and Implementation (New)",
@@ -1934,7 +2360,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Node.js (New)",
@@ -1943,7 +2371,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Nursing (New)",
@@ -1952,7 +2382,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Occupational Personality Questionnaire OPQ32r",
@@ -1961,7 +2393,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Professional Individual Contributor, Supervisor, Mid-Professional, Front Line Manager, General Population, Graduate, Manager, Director, Executive,",
+    "languages": "English International, French (Canada), Portuguese, Chinese Simplified, Chinese Traditional, French (Belgium), French, Polish, Slovak, Czech, Danish, Flemish, Dutch, Estonian, Finnish, German, Greek, Hungarian, Icelandic, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, English (USA), Arabic, Portuguese (Brazil), Spanish, Latin American Spanish, Romanian, Russian, Serbian, Swedish, Thai, Turkish, Malay, Vietnamese,"
   },
   {
     "name": "Operations Management (New)",
@@ -1970,7 +2404,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "OPQ Candidate Plus Report",
@@ -1979,7 +2415,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Finnish, English International,"
   },
   {
     "name": "OPQ Candidate Report 2.0",
@@ -1988,7 +2426,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "OPQ Emotional Intelligence Report",
@@ -1997,7 +2437,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Portuguese (Brazil), Danish, Dutch, Finnish, French (Canada), French, Latin American Spanish, Portuguese, Swedish, English International, English (USA),"
   },
   {
     "name": "OPQ Leadership Report",
@@ -2006,7 +2448,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Dutch, English International, English (USA), Romanian, Portuguese, French, German, Swedish, Chinese Simplified, Portuguese (Brazil), Japanese, Polish, Russian, Latin American Spanish,"
   },
   {
     "name": "OPQ Manager Plus Report",
@@ -2015,7 +2459,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Romanian, Czech, Serbian, Portuguese (Brazil), Spanish, Chinese Traditional, Danish, Dutch, Finnish, French (Canada), French, German, Greek, Hungarian, Icelandic, Indonesian, Italian, Japanese, Korean, Latin American Spanish, Norwegian, Polish, Portuguese, Russian, Chinese Simplified, Swedish, Thai, Turkish, English International, English (USA),"
   },
   {
     "name": "OPQ Manager Plus Report 2.0",
@@ -2024,7 +2470,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Supervisor, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Director, Entry-Level,",
+    "languages": null
   },
   {
     "name": "OPQ Maximising your Learning Report",
@@ -2033,7 +2481,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Director,",
+    "languages": "Danish, Dutch, Portuguese, Swedish, English International,"
   },
   {
     "name": "OPQ MQ Sales Report",
@@ -2042,7 +2492,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Portuguese (Brazil), Spanish, Danish, Dutch, Finnish, French (Canada), French, German, Greek, Hungarian, Icelandic, Indonesian, Italian, Japanese, Korean, Latin American Spanish, Norwegian, Polish, Russian, Chinese Simplified, Swedish, Thai, Turkish, English International, English (USA), Chinese Traditional, Portuguese, Romanian,"
   },
   {
     "name": "OPQ Premium Plus Report",
@@ -2051,7 +2503,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Supervisor, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Director, Executive,",
+    "languages": "English International,"
   },
   {
     "name": "OPQ Premium Plus Report 2.0",
@@ -2060,7 +2514,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Manager, Graduate, Mid-Professional, Professional Individual Contributor, Director, General Population, Entry-Level, Executive, Front Line Manager, Supervisor,",
+    "languages": null
   },
   {
     "name": "OPQ Profile Report",
@@ -2069,7 +2525,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Arabic, Romanian, Slovak, Serbian, Chinese Simplified, Chinese Traditional, Danish, Flemish, Dutch, English International, Finnish, French (Belgium), French (Canada), French, German, Greek, Hungarian, Icelandic, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese (Brazil), Portuguese, Russian, Latin American Spanish, Spanish, Swedish, Thai, Turkish, English (USA), Czech, Estonian, Latvian, Lithuanian,"
   },
   {
     "name": "OPQ Team Impact Group Development Report",
@@ -2078,7 +2536,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Executive, Director, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Danish, English International, Finnish, Dutch, Norwegian, Swedish, English (USA),"
   },
   {
     "name": "OPQ Team Impact Individual Development Report",
@@ -2087,7 +2547,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English International, Danish, Dutch, Finnish, Latin American Spanish, Norwegian, Swedish, English (USA),"
   },
   {
     "name": "OPQ Team Impact Selection Report",
@@ -2096,7 +2558,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Danish, Dutch, Finnish, Latin American Spanish, Norwegian, Swedish, English International, English (USA),"
   },
   {
     "name": "OPQ Team Types & Leadership Styles Profile",
@@ -2105,7 +2569,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Flemish, French (Belgium), Portuguese (Brazil), Danish, French (Canada), French, German, Italian, Latin American Spanish, Norwegian, Portuguese, Swedish, Turkish, English International, English (USA),"
   },
   {
     "name": "OPQ Team Types and Leadership Styles Report",
@@ -2114,7 +2580,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Flemish, French (Belgium), Portuguese (Brazil), Danish, Dutch, Finnish, French (Canada), French, Italian, Latin American Spanish, Norwegian, Portuguese, English International, English (USA),"
   },
   {
     "name": "OPQ UCF Development Action Planner Report 1.0",
@@ -2123,7 +2591,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English International, English (USA), Dutch, French, German, Norwegian, Swedish, Japanese, Portuguese, Chinese Simplified, Italian, Danish, Finnish, Latin American Spanish, Portuguese (Brazil),"
   },
   {
     "name": "OPQ UCF Development Action Planner Report 2.0",
@@ -2132,7 +2602,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, Manager, Graduate, General Population, Professional Individual Contributor, Supervisor, Mid-Professional,",
+    "languages": null
   },
   {
     "name": "OPQ Universal Competency Report 1.0",
@@ -2141,7 +2613,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Graduate, Director, Executive, Front Line Manager, General Population, Supervisor, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Czech, Romanian, Slovak, Serbian, Portuguese (Brazil), Spanish, Chinese Traditional, Danish, Dutch, Finnish, French (Canada), French, German, Greek, Hungarian, Icelandic, Indonesian, Italian, Japanese, Korean, Latin American Spanish, Norwegian, Polish, Portuguese, Russian, Chinese Simplified, Swedish, Thai, Turkish, English International, English (USA),"
   },
   {
     "name": "OPQ Universal Competency Report 2.0",
@@ -2150,7 +2624,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Director, Executive, Front Line Manager, General Population,",
+    "languages": null
   },
   {
     "name": "OPQ User and Managers Report",
@@ -2159,7 +2635,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Flemish, French (Belgium), Danish, Finnish, French, Italian, Norwegian, Portuguese, English International,"
   },
   {
     "name": "OPQ User Report",
@@ -2168,7 +2646,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour", "Simulations"]
+    "test_type": ["Personality & Behaviour", "Simulations"],
+    "job_levels": "Director, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Flemish, French (Belgium), Spanish, Danish, Dutch, Finnish, French, German, Italian, Norwegian, Portuguese, English International, English (USA), Portuguese (Brazil), French (Canada), Latin American Spanish,"
   },
   {
     "name": "Oracle DBA (Advanced Level) (New)",
@@ -2177,7 +2657,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Oracle DBA (Entry Level) (New)",
@@ -2186,7 +2668,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Oracle PL/SQL (New)",
@@ -2195,7 +2679,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Oracle WebLogic Server (New)",
@@ -2204,7 +2690,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Organic Chemistry (New)",
@@ -2213,7 +2701,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Paint Technology (New)",
@@ -2222,7 +2712,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Professional Individual Contributor, Graduate, Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": "Pediatrics (New)",
@@ -2231,7 +2723,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Pega Development (New)",
@@ -2240,7 +2734,9 @@
     "duration": 17,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Perl (New)",
@@ -2249,7 +2745,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Petrochemical Engineering (New)",
@@ -2258,7 +2756,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Petroleum Engineering (New)",
@@ -2267,7 +2767,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Pharmaceutical Analysis (New)",
@@ -2276,7 +2778,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Pharmaceutical Chemistry (New)",
@@ -2285,7 +2789,9 @@
     "duration": 17,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Pharmaceutical Science (New)",
@@ -2294,7 +2800,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Pharmaceutics (New)",
@@ -2303,7 +2811,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Pharmacology (New)",
@@ -2312,7 +2822,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "PHP (New)",
@@ -2321,7 +2833,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "PJM Development Report",
@@ -2334,7 +2848,9 @@
       "Competencies",
       "Ability & Aptitude",
       "Personality & Behaviour"
-    ]
+    ],
+    "job_levels": "Mid-Professional, Graduate, Manager,",
+    "languages": "Italian, English International, English (USA), French (Canada), Portuguese (Brazil), Latin American Spanish,"
   },
   {
     "name": "PJM Selection Report",
@@ -2347,7 +2863,9 @@
       "Ability & Aptitude",
       "Competencies",
       "Personality & Behaviour"
-    ]
+    ],
+    "job_levels": "Mid-Professional, Manager,",
+    "languages": "Italian, English International, English (USA), Portuguese (Brazil), Latin American Spanish, French (Canada),"
   },
   {
     "name": "Polymer Engineering (New)",
@@ -2356,7 +2874,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Professional Individual Contributor, Graduate, Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": "Power Electronics and Drives (New)",
@@ -2365,7 +2885,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor, Graduate,",
+    "languages": "English (USA),"
   },
   {
     "name": "Power System Engineering (New)",
@@ -2374,7 +2896,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Prism (New)",
@@ -2383,7 +2907,9 @@
     "duration": 4,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Production and Industrial Engineering (New)",
@@ -2392,7 +2918,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Production Engineering (New)",
@@ -2401,7 +2929,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Programming Concepts",
@@ -2410,7 +2940,9 @@
     "duration": 25,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Project Management (2013)",
@@ -2419,7 +2951,9 @@
     "duration": 30,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Proofreading v1",
@@ -2428,7 +2962,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Mid-Professional,",
+    "languages": "English International, English (USA),"
   },
   {
     "name": "Python (New)",
@@ -2437,7 +2973,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "R Programming (New)",
@@ -2446,7 +2984,9 @@
     "duration": 13,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "ReactJS (New)",
@@ -2455,7 +2995,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Reading Comprehension - English v1",
@@ -2464,7 +3006,9 @@
     "duration": 35,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Reading Comprehension - Spanish v1",
@@ -2473,7 +3017,9 @@
     "duration": 26,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Latin American Spanish,"
   },
   {
     "name": "Reading Comprehension v2",
@@ -2482,7 +3028,9 @@
     "duration": 35,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "RemoteWorkQ",
@@ -2491,7 +3039,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies"]
+    "test_type": ["Competencies"],
+    "job_levels": "Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Front Line Manager, General Population, Graduate, Director, Entry-Level, Executive,",
+    "languages": "English (USA), Arabic, Italian, Chinese Simplified, Portuguese, Turkish, Portuguese (Brazil), Indonesian, English International, Spanish, Latin American Spanish, French (Canada), German, Dutch, French,"
   },
   {
     "name": "RemoteWorkQ Manager Report",
@@ -2500,7 +3050,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies"]
+    "test_type": ["Competencies"],
+    "job_levels": "Director, Executive, Front Line Manager, Graduate, General Population, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Entry-Level,",
+    "languages": null
   },
   {
     "name": "RemoteWorkQ Participant Report",
@@ -2509,7 +3061,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies"]
+    "test_type": ["Competencies"],
+    "job_levels": "General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Director, Entry-Level, Executive, Front Line Manager,",
+    "languages": null
   },
   {
     "name": "RESTful Web Services (New)",
@@ -2518,7 +3072,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Retail Sales and Service Simulation",
@@ -2532,7 +3088,9 @@
       "Knowledge & Skills",
       "Simulations",
       "Ability & Aptitude"
-    ]
+    ],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Reviewing Forms - US (R1)",
@@ -2541,7 +3099,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Mid-Professional,",
+    "languages": "English (USA),"
   },
   {
     "name": "Ruby (New)",
@@ -2550,7 +3110,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Ruby on Rails (New)",
@@ -2559,7 +3121,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Sales & Service Phone Simulation",
@@ -2568,7 +3132,9 @@
     "duration": 20,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations", "Biodata & Situational Judgement"]
+    "test_type": ["Simulations", "Biodata & Situational Judgement"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA), English (Australia), English International, Chinese Simplified, French, Spanish, Portuguese (Brazil), Italian, Dutch, Latin American Spanish, French (Canada), German,"
   },
   {
     "name": "Sales & Service Phone Solution",
@@ -2581,7 +3147,9 @@
       "Biodata & Situational Judgement",
       "Personality & Behaviour",
       "Simulations"
-    ]
+    ],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA), Latin American Spanish, English (Australia), English International, Chinese Simplified, Spanish, German, Dutch, Italian, French, Portuguese (Brazil), French (Canada),"
   },
   {
     "name": "Sales Interview Guide",
@@ -2590,7 +3158,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour", "Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour", "Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English International,"
   },
   {
     "name": "Sales Profiler Cards",
@@ -2599,7 +3169,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English International, Finnish,"
   },
   {
     "name": "Sales Transformation 1.0 - Individual Contributor",
@@ -2608,7 +3180,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": null
   },
   {
     "name": "Sales Transformation 2.0 - Individual Contributor",
@@ -2617,7 +3191,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": null
   },
   {
     "name": "Sales Transformation Report 1.0 - Sales Manager",
@@ -2626,7 +3202,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, Manager, Supervisor,",
+    "languages": null
   },
   {
     "name": "Sales Transformation Report 2.0 - Sales Manager",
@@ -2635,7 +3213,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, Manager, Supervisor,",
+    "languages": null
   },
   {
     "name": "Salesforce Development (New)",
@@ -2644,7 +3224,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP ABAP (Advanced Level) (New)",
@@ -2653,7 +3235,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP ABAP (Intermediate Level) (New)",
@@ -2662,7 +3246,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP Basis (New)",
@@ -2671,7 +3257,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP Business Objects WebI (New)",
@@ -2680,7 +3268,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP BW (Business Warehouse) (New)",
@@ -2689,7 +3279,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP HCM (Human Capital Management) (New)",
@@ -2698,7 +3290,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP Hybris (New)",
@@ -2707,7 +3301,9 @@
     "duration": 20,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP Materials Management (New)",
@@ -2716,7 +3312,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SAP SD (Sales and Distribution) (New)",
@@ -2725,7 +3323,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Search Engine Optimization (New)",
@@ -2734,7 +3334,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Selenium (New)",
@@ -2743,7 +3345,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Shell Scripting (New)",
@@ -2752,7 +3356,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SHL Verify Interactive - Inductive Reasoning",
@@ -2761,7 +3367,9 @@
     "duration": 20,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Simulations"]
+    "test_type": ["Ability & Aptitude", "Simulations"],
+    "job_levels": "Professional Individual Contributor, Graduate, Manager, Mid-Professional,",
+    "languages": "Korean, Japanese, Thai, Portuguese (Brazil), Portuguese, Chinese Traditional, Indonesian, Russian, Romanian, Polish, Greek, Latin American Spanish, English International, Arabic, Hungarian, Czech, French (Canada), Slovak, Serbian, Turkish, Spanish, Danish, Estonian, Finnish, Latvian, Lithuanian, Norwegian, Swedish, French, German, Italian, Dutch, Chinese Simplified, English (USA),"
   },
   {
     "name": "SHL Verify Interactive \u2013 Deductive Reasoning",
@@ -2770,7 +3378,9 @@
     "duration": 20,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Simulations"]
+    "test_type": ["Ability & Aptitude", "Simulations"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Chinese Traditional, Romanian, Turkish, Polish, Greek, Latin American Spanish, Portuguese (Brazil), Japanese, Hungarian, Czech, French (Canada), Slovak, Serbian, English International, English (USA), German, Italian, Indonesian, Korean, Russian, Arabic, Danish, Finnish, Norwegian, Swedish, Estonian, Latvian, Lithuanian, French, Dutch, Chinese Simplified, Spanish, Portuguese,"
   },
   {
     "name": "SHL Verify Interactive \u2013 Numerical Reasoning",
@@ -2779,7 +3389,9 @@
     "duration": 20,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Simulations"]
+    "test_type": ["Ability & Aptitude", "Simulations"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "French, German, Italian, Dutch, Chinese Simplified, Danish, Finnish, Norwegian, Swedish, Estonian, Latvian, Lithuanian, English International, English (USA), Czech, Polish, Latin American Spanish, Spanish, Thai, Japanese, Korean, Portuguese, Portuguese (Brazil), Chinese Traditional, Hungarian, Indonesian, Russian, Romanian, Turkish, French (Canada), Greek, Slovak, Serbian, Arabic,"
   },
   {
     "name": "SHL Verify Interactive G+",
@@ -2788,7 +3400,9 @@
     "duration": 36,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA), Chinese Traditional, Korean, Serbian, Slovak, Spanish, English International, Danish, Swedish, Norwegian, Finnish, Latvian, Lithuanian, Estonian, Portuguese, Hungarian, Thai, Czech, Polish, Turkish, Portuguese (Brazil), Romanian, Latin American Spanish, Italian, French (Canada), Chinese Simplified, Dutch, German, French, Russian, Indonesian, Greek, Japanese,"
   },
   {
     "name": "SHL Verify Interactive Numerical Calculation",
@@ -2797,7 +3411,9 @@
     "duration": 10,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA), English International,"
   },
   {
     "name": "Siebel Development (New)",
@@ -2806,7 +3422,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Smart Interview Live",
@@ -2815,7 +3433,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Entry-Level, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Smart Interview Live Coding",
@@ -2824,7 +3444,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Smart Interview On Demand",
@@ -2833,7 +3455,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Entry-Level, Supervisor, Manager, Front Line Manager, General Population, Graduate, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA), Chinese Simplified,"
   },
   {
     "name": "Social Media (New)",
@@ -2842,7 +3466,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Software Business Analysis",
@@ -2851,7 +3477,9 @@
     "duration": 30,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SonarQube (New)",
@@ -2860,7 +3488,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Spelling (U.S.) (New)",
@@ -2869,7 +3499,9 @@
     "duration": 0,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Split Screen Typing Test - Form 1",
@@ -2878,7 +3510,9 @@
     "duration": 6,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude", "Knowledge & Skills"]
+    "test_type": ["Ability & Aptitude", "Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA), English (Australia), English International,"
   },
   {
     "name": "Spring (New)",
@@ -2887,16 +3521,20 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
-    "name": "A Different Kind of Talent Intelligence",
+    "name": "SQL (New)",
     "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
-    "description": "",
-    "duration": null,
+    "description": "Multi-choice test that measures the knowledge of SQL queries, data manipulation and transaction processing.",
+    "duration": 9,
     "adaptive_support": "No",
-    "remote_support": "No",
-    "test_type": []
+    "remote_support": "Yes",
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SQL Server (New)",
@@ -2905,7 +3543,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SQL Server Analysis Services (SSAS) (New)",
@@ -2914,7 +3554,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SQL Server Integration Services (SSIS) (New)",
@@ -2923,7 +3565,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SQL Server Reporting Services (SSRS) (New)",
@@ -2932,7 +3576,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Statistical Analysis System (New)",
@@ -2941,7 +3587,9 @@
     "duration": 11,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Struts (New)",
@@ -2950,7 +3598,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "SVAR - Spoken English (AUS)",
@@ -2959,7 +3609,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "SVAR - Spoken English (Indian Accent)  (New)",
@@ -2968,7 +3620,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "SVAR - Spoken English (U.K.)",
@@ -2977,7 +3631,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English International,"
   },
   {
     "name": "SVAR - Spoken English (US)  (New)",
@@ -2986,7 +3642,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "SVAR - Spoken French (Canadian) (New)",
@@ -2995,7 +3653,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "French (Canada),"
   },
   {
     "name": "SVAR - Spoken French (European) (New)",
@@ -3004,7 +3664,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "French,"
   },
   {
     "name": "SVAR - Spoken Spanish (Castilian) (New)",
@@ -3013,7 +3675,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "Spanish,"
   },
   {
     "name": "SVAR - Spoken Spanish (North American) (New)",
@@ -3022,7 +3686,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "Latin American Spanish,"
   },
   {
     "name": "Swing (New)",
@@ -3031,7 +3697,9 @@
     "duration": 4,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Tableau (New)",
@@ -3040,7 +3708,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Telecommunications Engineering (New)",
@@ -3049,7 +3719,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Teradata Development (New)",
@@ -3058,7 +3730,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Time Management (U.S.)",
@@ -3067,7 +3741,9 @@
     "duration": 15,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Training Development",
@@ -3076,7 +3752,9 @@
     "duration": 15,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Front Line Manager, Manager,",
+    "languages": "English (USA),"
   },
   {
     "name": "Typing (New)",
@@ -3085,7 +3763,9 @@
     "duration": 2,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "UiPath RPA Development (New)",
@@ -3094,7 +3774,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Universal Competency Framework Interview Guide",
@@ -3103,7 +3785,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English International, Swedish, German, Finnish,"
   },
   {
     "name": "Universal Competency Framework Job profiling guide",
@@ -3112,7 +3796,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English International, Portuguese,"
   },
   {
     "name": "Universal Competency Framework Profiler Cards (44)",
@@ -3121,7 +3807,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Competencies", "Personality & Behaviour"]
+    "test_type": ["Competencies", "Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Portuguese (Brazil), Latin American Spanish, French, Chinese Simplified, Icelandic, Lithuanian, Danish, Dutch, English International, Finnish, German, Italian, Norwegian, Portuguese, Spanish, English (USA), Swedish,"
   },
   {
     "name": "UNIX (New)",
@@ -3130,7 +3818,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "VB.NET (New)",
@@ -3139,7 +3829,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Verify - Deductive Reasoning",
@@ -3148,7 +3840,9 @@
     "duration": 20,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Arabic, French (Canada), Portuguese (Brazil), Chinese Traditional, Chinese Simplified, Czech, Danish, Dutch, Finnish, French, German, Greek, Hungarian, Indonesian, English International, Italian, Japanese, Korean, Latin American Spanish, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Thai, Turkish, English (USA), Norwegian,"
   },
   {
     "name": "Verify - Following Instructions",
@@ -3157,7 +3851,9 @@
     "duration": 8,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level,",
+    "languages": "Latin American Spanish, Arabic, Chinese Simplified, German, French, Italian, Dutch, English (USA), English International,"
   },
   {
     "name": "Verify - G+",
@@ -3166,7 +3862,9 @@
     "duration": 36,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Director, Entry-Level, Executive, Front Line Manager,",
+    "languages": "Romanian, English (USA), English International, French (Canada), Latin American Spanish, Arabic, Dutch, French, German, Swedish, Chinese Simplified, Chinese Traditional, Czech, Danish, Greek, Hungarian, Italian, Korean, Norwegian, Polish, Portuguese, Thai, Turkish, Finnish, Japanese, Spanish, Indonesian, Russian, Slovak, Serbian, Portuguese (Brazil), Vietnamese,"
   },
   {
     "name": "Verify - General Ability Screen",
@@ -3175,7 +3873,9 @@
     "duration": 10,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level,",
+    "languages": "German, French (Canada), English (USA), English International, Latin American Spanish, Dutch, French, Chinese Simplified, Portuguese (Brazil), Turkish, Japanese,"
   },
   {
     "name": "Verify - Inductive Reasoning (2014)",
@@ -3184,7 +3884,9 @@
     "duration": 24,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Director, Entry-Level,",
+    "languages": "Portuguese (Brazil), Chinese Traditional, Chinese Simplified, Czech, Danish, Finnish, French, Hungarian, Indonesian, English International, Italian, Latin American Spanish, Norwegian, Portuguese, Russian, Thai, English (USA), French (Canada), Dutch, Polish, Slovak, Arabic, German, Greek, Japanese, Korean, Romanian, Serbian, Spanish, Swedish, Turkish,"
   },
   {
     "name": "Verify - Numerical Ability",
@@ -3193,7 +3895,9 @@
     "duration": 20,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "Arabic, Portuguese (Brazil), French (Canada), Chinese Simplified, Czech, Dutch, Finnish, French, German, Hungarian, Indonesian, English International, Italian, Japanese, Korean, Norwegian, Portuguese, Romanian, Russian, Slovak, Spanish, Swedish, Turkish, English (USA), Latin American Spanish, Polish, Serbian, Chinese Traditional, Danish, Thai, Greek,"
   },
   {
     "name": "Verify - Technical Checking - Next Generation",
@@ -3202,7 +3906,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level,",
+    "languages": "Latin American Spanish, English (USA), English International, French, German, Italian, Dutch, Chinese Simplified,"
   },
   {
     "name": "Verify - Verbal Ability - Next Generation",
@@ -3211,7 +3917,9 @@
     "duration": 15,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "General Population, Graduate, Executive, Director, Entry-Level, Manager, Mid-Professional, Professional Individual Contributor, Supervisor, Front Line Manager,",
+    "languages": "English (USA), English International,"
   },
   {
     "name": "Verify - Working with Information",
@@ -3220,7 +3928,9 @@
     "duration": 10,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Entry-Level,",
+    "languages": "Greek, Arabic, Chinese Simplified, German, French, Italian, Dutch, English International, English (USA), Latin American Spanish,"
   },
   {
     "name": "Verify G+ - Ability Test Report",
@@ -3229,7 +3939,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "Verify G+ - Candidate Report",
@@ -3238,7 +3950,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "Verify Interactive Ability Report",
@@ -3247,7 +3961,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "Verify Interactive G+ Candidate Report",
@@ -3256,7 +3972,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": null,
+    "languages": null
   },
   {
     "name": "Verify Interactive G+ Report",
@@ -3265,7 +3983,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": null
   },
   {
     "name": "Verify Interactive Process Monitoring",
@@ -3274,7 +3994,9 @@
     "duration": 18,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Ability & Aptitude"]
+    "test_type": ["Ability & Aptitude"],
+    "job_levels": "Graduate, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Virtual Assessment and Development Centers",
@@ -3283,7 +4005,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Personality & Behaviour"]
+    "test_type": ["Personality & Behaviour"],
+    "job_levels": "Director, Entry-Level, Executive, Front Line Manager, General Population, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA), English International, Italian, German, Portuguese, Spanish, Latin American Spanish, French, French (Canada), Dutch, Japanese, Indonesian, Greek, Romanian, Chinese Simplified, Arabic,"
   },
   {
     "name": "Visual Basic for Applications (New)",
@@ -3292,7 +4016,9 @@
     "duration": 7,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Visual Comparison - UK",
@@ -3301,7 +4027,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English International,"
   },
   {
     "name": "Visual Comparison - US",
@@ -3310,7 +4038,9 @@
     "duration": 5,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "VLSI and Embedded Systems (New)",
@@ -3319,7 +4049,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "What Is The Value - US",
@@ -3328,7 +4060,9 @@
     "duration": 5,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level,",
+    "languages": "English (USA),"
   },
   {
     "name": "Workplace Administration Skills (New)",
@@ -3337,7 +4071,9 @@
     "duration": 12,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Workplace Health and Safety (New)",
@@ -3346,7 +4082,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Graduate, Manager, Supervisor, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "WriteX - Email Writing (Customer Service) (New)",
@@ -3355,7 +4093,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "WriteX - Email Writing (Managerial) (New)",
@@ -3364,7 +4104,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Simulations"]
+    "test_type": ["Simulations"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "WriteX - Email Writing (Sales) (New)",
@@ -3373,7 +4115,9 @@
     "duration": 15,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Biodata & Situational Judgement", "Simulations"]
+    "test_type": ["Biodata & Situational Judgement", "Simulations"],
+    "job_levels": "Entry-Level, Graduate, Manager, Mid-Professional, Professional Individual Contributor, Supervisor,",
+    "languages": "English (USA),"
   },
   {
     "name": "Written English v1",
@@ -3382,7 +4126,9 @@
     "duration": 30,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA), English International,"
   },
   {
     "name": "Written Spanish",
@@ -3391,7 +4137,9 @@
     "duration": 22,
     "adaptive_support": "Yes",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Entry-Level, Front Line Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Latin American Spanish,"
   },
   {
     "name": "Zabbix (New)",
@@ -3400,7 +4148,9 @@
     "duration": 9,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Knowledge & Skills"]
+    "test_type": ["Knowledge & Skills"],
+    "job_levels": "Mid-Professional, Professional Individual Contributor,",
+    "languages": "English (USA),"
   },
   {
     "name": "360 Digital Report",
@@ -3409,7 +4159,9 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Development & 360"]
+    "test_type": ["Development & 360"],
+    "job_levels": "Director, Manager, Entry-Level, Executive, Front Line Manager, General Population, Graduate,",
+    "languages": null
   },
   {
     "name": "360\u00b0 Multi-Rater Feedback System (MFS)",
@@ -3418,6 +4170,8 @@
     "duration": null,
     "adaptive_support": "No",
     "remote_support": "Yes",
-    "test_type": ["Development & 360", "Personality & Behaviour"]
+    "test_type": ["Development & 360", "Personality & Behaviour"],
+    "job_levels": "Director, Executive, Front Line Manager, Manager, Mid-Professional, Professional Individual Contributor,",
+    "languages": "Latin American Spanish, Romanian, French (Canada), Czech, Hungarian, Indonesian, Turkish, Serbian, Portuguese (Brazil), Chinese Traditional, Slovak, Thai, English International, Dutch, French, German, Italian, Portuguese, Spanish, Danish, Finnish, Norwegian, Swedish, English (USA), Russian, Chinese Simplified, Icelandic, Polish, Japanese, Korean,"
   }
 ]

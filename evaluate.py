@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 
 api_url = "http://127.0.0.1:8000/recommend"
-k = 5
+k = 10
 
 
 def get_ground_truth():
@@ -27,7 +27,7 @@ def get_ground_truth():
     return ground_truth
 
 
-def calculate_recall(predicted_urls, true_urls, k=5):
+def calculate_recall(predicted_urls, true_urls, k=10):
     # Recall@k
 
     top_k_predictions = set(predicted_urls[:k])

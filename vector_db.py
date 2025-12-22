@@ -10,7 +10,7 @@ def create_vector_db(documents):
     print("creating embeddigns...")
 
     embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
+        model_name="sentence-transformers/all-mpnet-base-v2"  # all-MiniLM-L6-v2
     )
 
     vector_db = FAISS.from_documents(documents, embeddings)

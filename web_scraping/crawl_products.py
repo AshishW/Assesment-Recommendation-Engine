@@ -32,49 +32,45 @@ def setup_driver():
     return driver
 
 
+def extract_h4_section_text(soup, heading_txt):
+    h4 = soup.find(lambda tag: tag.name == "h4" and heading_txt in tag.get_text())
+    if not h4:
+        return None
+    sib = h4.find_next_sibling("p")
+    if sib:
+        return sib.get_text(" ", strip=True)
+    parent = h4.find_parent("div")
+    if parent:
+        return parent.get_text(" ", strip=True).replace(heading_txt, "").strip()
+    return None
+
+
 def extract_page_data(soup, item, index):
     # 1. Name
     h1 = soup.find("h1")
     name = h1.get_text(strip=True) if h1 else "Unknown"
 
-    # 2. Description
-    description = ""
-    h4_desc = soup.find(
-        lambda tag: tag.name == "h4" and "Description" in tag.get_text()
-    )
-    if h4_desc:
-        sib = h4_desc.find_next_sibling("p")
-        if sib:
-            description = sib.get_text(" ", strip=True)
-        else:
-            parent = h4_desc.find_parent("div")
-            if parent:
-                description = (
-                    parent.get_text(" ", strip=True).replace("Description", "").strip()
-                )
+    # 2. Description + Job levels + Languages
+    description = extract_h4_section_text(soup, "Description")
+    job_levels = extract_h4_section_text(soup, "Job levels")
+    languages = extract_h4_section_text(soup, "Languages")
 
     # 3. Assessment Length + Test Type + Remote
-    # A. Duration
+    # Duration
     duration = None
-    # Search entire page text for the pattern (safer than finding specific parents)
-    # limit search to body content to avoid header/footer noise if needed
     body_text = soup.get_text(" ", strip=True)
     m = re.search(r"minutes\s*=\s*(\d+)", body_text, re.IGNORECASE)
     if m:
         duration = int(m.group(1))
 
-    # B. Test Type
+    #  test Type
     test_type = []
-    # Find the label "Test Type:" explicitly
-    # Use BS4 string search to find the element containing this text
     tt_label = soup.find(string=re.compile("Test Type:", re.IGNORECASE))
 
     if tt_label:
-        # The badges are usually in the same container (p or div) or a sibling
         container = tt_label.find_parent("p") or tt_label.find_parent("div")
 
         if container:
-            # Find all badges inside this container
             type_spans = container.find_all("span", class_="product-catalogue__key")
 
             mapping = {
@@ -95,9 +91,8 @@ def extract_page_data(soup, item, index):
                 else:
                     test_type.append(code)
 
-    # C. Remote Support
+    # Remote support
     remote_support = "No"
-    # Find label "Remote Testing:"
     rt_label = soup.find(string=re.compile("Remote Testing:", re.IGNORECASE))
 
     if rt_label:
@@ -117,11 +112,13 @@ def extract_page_data(soup, item, index):
         # "id": index,
         "name": name,
         "url": item["url"],
-        "description": description[:3000],
+        "description": description,
         "duration": duration,
         "adaptive_support": item.get("adaptive_support", "No"),
         "remote_support": remote_support,
         "test_type": test_type,
+        "job_levels": job_levels,
+        "languages": languages,
     }
 
 

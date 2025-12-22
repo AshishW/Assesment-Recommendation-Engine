@@ -22,10 +22,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
 
 try:
-    top_k = 10
+    top_k = 20
     vector_db = FAISS.load_local(
         "shl_faiss_index", embeddings, allow_dangerous_deserialization=True
     )
@@ -38,7 +38,9 @@ class AssessmentRecommendation(BaseModel):
     url: str = Field(description="URL of the assessment")
     name: str = Field(description="Name of the assessment")
     adaptive_support: str = Field(description="'Yes' or 'No'")
-    duration: Optional[int] = Field(description="Duration in minutes (or 0 if unknown)")
+    duration: Optional[int] = Field(
+        description="Duration in minutes (or N/A if unknown)"
+    )
     description: str = Field(description="Brief description of the assessment")
     remote_support: str = Field(description="'Yes' or 'No'")
     test_type: List[str] = Field(
@@ -50,12 +52,13 @@ class RecommendationResponse(BaseModel):
     recommended_assessments: List[AssessmentRecommendation]
 
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
+model = "gemini-2.5-flash"
+llm = ChatGoogleGenerativeAI(model=model)
 structured_llm = llm.with_structured_output(RecommendationResponse)
 
 template = """
-You are an expert HR Recruitment consultant.
-Your task is to recommend min 5 assessments from the provided context based on user's job description/query.
+You are an expert HR Recruitment consultant and you intelligently balance recommendations when a query spans multiple domains.
+Your task is to recommend top 5-10 relevant assessments from the provided context based on user's job description/query.
 
 CONTEXT:
 {context}
@@ -66,7 +69,7 @@ USER REQUEST:
 INSTRUCTIONS:
 1. Return valid JSON. key: "recommended_assessments" (list).
 2. Fields: url, name, adaptive_support, description, duration, remote_support, test_type
-3. select minimum 5, maximum 10 top matches.
+3. select top 5-10 relevant matches based on the query.
 """
 
 prompt = ChatPromptTemplate.from_template(template)
@@ -86,6 +89,36 @@ def format_docs(docs):
     return context
 
 
+def process_query(query):
+    print("Processing query...\n")
+    messages = [
+        (
+            "system",
+            """
+            You are helping to search a catalog of assessments.
+
+            Given a job description or search query, output a short, comma-separated list
+            of the most important keywords for matching assessments.
+
+            Include:
+            - job title or role (senior, graduate, manager, etc.)
+            - core technical skills (Java, .NET, Python, SQL, Sales, etc.)
+            - domain if relevant (finance, healthcare, retail)
+            - soft skill words only if they are clearly primary (e.g. "sales", "customer service")
+
+            Do NOT include explanation text or labels like "role:", "skills required:", etc.
+            Just output comma-separated keywords, for example:
+            "senior backend developer, java, microservices, spring, sql"
+            """,
+        ),
+        ("human", query),
+    ]
+
+    response = llm.invoke(messages)
+    print(f"Processed Query: {response.text}")
+    return response.text
+
+
 rag_chain = (
     {"context": retriever | format_docs, "question": RunnablePassthrough()}
     | prompt
@@ -100,7 +133,9 @@ class QueryRequest(BaseModel):
 @app.post("/recommend")
 async def recommend_assesments(request: QueryRequest):
     try:
-        response = rag_chain.invoke(request.query)
+        query = request.query
+        processed_query = process_query(query)
+        response = rag_chain.invoke(processed_query)
         result = response.dict()
 
         for item in result["recommended_assessments"]:
