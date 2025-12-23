@@ -2,16 +2,20 @@ import json
 import os
 from typing import List, Optional
 
+import requests
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.runnables import RunnablePassthrough
+
+# from langchain_core.runnables import RunnablePassthrough
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_huggingface import HuggingFaceEmbeddings
+
+# from langchain_huggingface import HuggingFaceEmbeddings
 from pydantic import BaseModel, Field
-from sentence_transformers import CrossEncoder
+
+# from sentence_transformers import CrossEncoder
 
 load_dotenv()
 app = FastAPI()
@@ -23,16 +27,48 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+# embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
 # reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", max_length=512)
-try:
-    top_k = 20
-    vector_db = FAISS.load_local(
-        "shl_faiss_index", embeddings, allow_dangerous_deserialization=True
+HF_API_URL = "https://router.huggingface.co/hf-inference/models/sentence-transformers/all-mpnet-base-v2/pipeline/feature-extraction"
+
+HF_TOKEN = os.environ.get("HF_TOKEN")
+
+if HF_TOKEN is None:
+    raise RuntimeError("HF_TOKEN environment variable not set")
+
+HF_HEADERS = {"Authorization": f"Bearer {HF_TOKEN}"}
+
+
+def embed_query(text: str) -> List[float]:
+    resp = requests.post(
+        HF_API_URL,
+        headers=HF_HEADERS,
+        json={"inputs": text},
+        timeout=30,
     )
-    retriever = vector_db.as_retriever(search_kwargs={"k": top_k})
+    resp.raise_for_status()
+    data = resp.json()
+    if isinstance(data[0], list):
+        return data[0]
+    return data
+
+
+TOP_K = 20
+try:
+    vector_db = FAISS.load_local(
+        "shl_faiss_index", embeddings=None, allow_dangerous_deserialization=True
+    )
+    # retriever = vector_db.as_retriever(search_kwargs={"k": top_k})
 except Exception as e:
     print(f"could not load vector_db. {e}")
+
+
+def get_candidates(query_text: str):
+    if vector_db is None:
+        return []
+    vec = embed_query(query_text)
+    # search by vector instead of by text
+    return vector_db.similarity_search_by_vector(vec, k=TOP_K)
 
 
 class AssessmentRecommendation(BaseModel):
@@ -122,54 +158,13 @@ def process_query(query):
     return response.text
 
 
-TOP_K_RETRIEVE = 50  # from FAISS
-TOP_K_FINAL = 20  # after reranking
+def retrieval_node(q: str):
+    candidates = get_candidates(q)
+    context = format_docs(candidates)
+    return {"context": context, "question": q}
 
 
-def get_candidates(query_text: str):
-    return vector_db.similarity_search(query_text, k=TOP_K_RETRIEVE)
-
-
-def doc_text_for_rerank(d):
-    return (
-        f"Name: {d.metadata.get('name', '')}. "
-        f"Description: {d.metadata.get('description', '')}. "
-        f"Test type: {', '.join(d.metadata.get('test_type', []))}. "
-        f"Job levels: {', '.join(d.metadata.get('job_levels', [])) if 'job_levels' in d.metadata else ''}. "
-    )
-
-
-def rerank_docs(query_text: str, docs):
-    if not docs:
-        return []
-
-    pairs = [(query_text, doc_text_for_rerank(d)) for d in docs]
-    scores = reranker.predict(pairs)
-    scored = list(zip(docs, scores))
-    scored.sort(key=lambda x: x[1], reverse=True)
-
-    reranked_docs = [d for d, s in scored[:TOP_K_FINAL]]
-    print("RERANKED_DOCS: \n", reranked_docs)
-    return reranked_docs
-
-
-def retrieval_and_rerank(queries: dict):
-    retrieval_query = queries["retrieval_query"]
-    llm_query = queries["llm_query"]
-    candidates = get_candidates(retrieval_query)
-    # reranking
-    top_docs = rerank_docs(retrieval_query, candidates)
-    context = format_docs(top_docs)
-    return {"context": context, "question": retrieval_query}
-
-
-# rag_chain = retrieval_and_rerank | prompt | structured_llm
-
-rag_chain = (
-    {"context": retriever | format_docs, "question": RunnablePassthrough()}
-    | prompt
-    | structured_llm
-)
+rag_chain = retrieval_node | prompt | structured_llm
 
 
 class QueryRequest(BaseModel):
@@ -190,7 +185,7 @@ async def recommend_assesments(request: QueryRequest):
         for item in result["recommended_assessments"]:
             original_url = item["url"]
             if "shl.com/products/" in original_url:
-                # normalizing urls
+                # normalizing Urls
                 item["url"] = original_url.replace(
                     "shl.com/products/", "shl.com/solutions/products/"
                 )
