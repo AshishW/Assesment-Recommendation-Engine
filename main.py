@@ -11,6 +11,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from pydantic import BaseModel, Field
+from sentence_transformers import CrossEncoder
 
 load_dotenv()
 app = FastAPI()
@@ -23,7 +24,7 @@ app.add_middleware(
 )
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
-
+# reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", max_length=512)
 try:
     top_k = 20
     vector_db = FAISS.load_local(
@@ -57,8 +58,8 @@ llm = ChatGoogleGenerativeAI(model=model)
 structured_llm = llm.with_structured_output(RecommendationResponse)
 
 template = """
-You are an expert HR Recruitment consultant and you intelligently balance recommendations when a query spans multiple domains.
-Your task is to recommend top 5-10 relevant assessments from the provided context based on user's job description/query.
+You are an expert HR Recruitment consultant.
+Your task is to recommend top 10 relevant assessments from the provided context based on user's job description/query.
 
 CONTEXT:
 {context}
@@ -69,7 +70,7 @@ USER REQUEST:
 INSTRUCTIONS:
 1. Return valid JSON. key: "recommended_assessments" (list).
 2. Fields: url, name, adaptive_support, description, duration, remote_support, test_type
-3. select top 5-10 relevant matches based on the query.
+3. select top 10 relevant matches based on the query.
 """
 
 prompt = ChatPromptTemplate.from_template(template)
@@ -86,6 +87,7 @@ def format_docs(docs):
         context += f"duration: {d.metadata['duration']}\n"
         context += f"remote_support: {d.metadata['remote_support']}\n"
         context += f"test_type: {d.metadata['test_type']}\n\n"
+        # todo: consider adding the two new fields as well
     return context
 
 
@@ -105,10 +107,11 @@ def process_query(query):
             - core technical skills (Java, .NET, Python, SQL, Sales, etc.)
             - domain if relevant (finance, healthcare, retail)
             - soft skill words only if they are clearly primary (e.g. "sales", "customer service")
+            - Other relevant important information from the query.
 
             Do NOT include explanation text or labels like "role:", "skills required:", etc.
-            Just output comma-separated keywords, for example:
-            "senior backend developer, java, microservices, spring, sql"
+            Just output comma-separated keywords along with short 2 line description of the query, for example:
+            "senior backend developer, java, microservices, spring, sql, 40 minute, etc" followed by small description.
             """,
         ),
         ("human", query),
@@ -118,6 +121,49 @@ def process_query(query):
     print(f"Processed Query: {response.text}")
     return response.text
 
+
+TOP_K_RETRIEVE = 50  # from FAISS
+TOP_K_FINAL = 20  # after reranking
+
+
+def get_candidates(query_text: str):
+    return vector_db.similarity_search(query_text, k=TOP_K_RETRIEVE)
+
+
+def doc_text_for_rerank(d):
+    return (
+        f"Name: {d.metadata.get('name', '')}. "
+        f"Description: {d.metadata.get('description', '')}. "
+        f"Test type: {', '.join(d.metadata.get('test_type', []))}. "
+        f"Job levels: {', '.join(d.metadata.get('job_levels', [])) if 'job_levels' in d.metadata else ''}. "
+    )
+
+
+def rerank_docs(query_text: str, docs):
+    if not docs:
+        return []
+
+    pairs = [(query_text, doc_text_for_rerank(d)) for d in docs]
+    scores = reranker.predict(pairs)
+    scored = list(zip(docs, scores))
+    scored.sort(key=lambda x: x[1], reverse=True)
+
+    reranked_docs = [d for d, s in scored[:TOP_K_FINAL]]
+    print("RERANKED_DOCS: \n", reranked_docs)
+    return reranked_docs
+
+
+def retrieval_and_rerank(queries: dict):
+    retrieval_query = queries["retrieval_query"]
+    llm_query = queries["llm_query"]
+    candidates = get_candidates(retrieval_query)
+    # reranking
+    top_docs = rerank_docs(retrieval_query, candidates)
+    context = format_docs(top_docs)
+    return {"context": context, "question": retrieval_query}
+
+
+# rag_chain = retrieval_and_rerank | prompt | structured_llm
 
 rag_chain = (
     {"context": retriever | format_docs, "question": RunnablePassthrough()}
@@ -135,6 +181,9 @@ async def recommend_assesments(request: QueryRequest):
     try:
         query = request.query
         processed_query = process_query(query)
+        # response = rag_chain.invoke(
+        #     {"retrieval_query": processed_query, "llm_query": query}
+        # )
         response = rag_chain.invoke(processed_query)
         result = response.dict()
 
