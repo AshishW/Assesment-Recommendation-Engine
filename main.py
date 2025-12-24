@@ -123,7 +123,6 @@ def format_docs(docs):
         context += f"duration: {d.metadata['duration']}\n"
         context += f"remote_support: {d.metadata['remote_support']}\n"
         context += f"test_type: {d.metadata['test_type']}\n\n"
-        # todo: consider adding the two new fields as well
     return context
 
 
