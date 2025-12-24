@@ -4,6 +4,8 @@
 
 An intelligent **Retrieval-Augmented Generation (RAG)** system that recommends relevant HR assessments from SHL's product catalog based on job descriptions and hiring requirements. The system uses web scraping to collect assessment data, vector embeddings for semantic search, and AI-powered ranking to provide personalized assessment recommendations.
 
+Frontend Repo: https://github.com/AshishW/Assessment-Recommendation-System-Frontend
+
 ### Key Features
 
 - **Web Scraping**: Automated crawling of SHL's product catalog with retry logic and error handling
